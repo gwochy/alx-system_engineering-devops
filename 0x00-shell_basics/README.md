@@ -29,3 +29,5 @@ ln -s /bin/ls __ls__ // this creates a symbolic link to directory /bin/ls
 cp -un*.html ../  // this copies all new html files to the parent directory
 
 mv [[:upper:]]* /tmp/u // this moves all files starting with an upper case letter to /tmp/u directory
+
+rm *~ // this deletes all files that end with a character ~
