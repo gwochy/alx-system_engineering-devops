@@ -17,3 +17,7 @@
  rm /tmp/my_first_directory/betty // deletesfile betty from my_first_directory
 
 rm -r /tmp/my_first_directory // delecting a directory from /tmp directory
+
+cd - // changes the working directory to a previous one
+
+
