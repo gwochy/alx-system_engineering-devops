@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/password
+ls -la id -u id -g
