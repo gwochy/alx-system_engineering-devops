@@ -25,3 +25,5 @@ ls -al. .. /boot // lists all files in the working directory, parent directory a
 file /tmp/iamafile // creating file type iamafile in /tmp
 
 ln -s /bin/ls __ls__ // this creates a symbolic link to directory /bin/ls
+
+cp -un*.html ../  // this copies all new html files to the parent directory
