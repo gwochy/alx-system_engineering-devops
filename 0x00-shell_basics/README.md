@@ -22,4 +22,6 @@ cd - // changes the working directory to a previous one
 
 ls -al. .. /boot // lists all files in the working directory, parent directory and the /boot directory
 
+file /tmp/iamafile // creating file type iamafile in /tmp
+
 
