@@ -33,3 +33,5 @@ mv [[:upper:]]* /tmp/u // this moves all files starting with an upper case lette
 rm *~ // this deletes all files that end with a character ~
 
 mkdir -p welcome/to/school // creates three directories in the working directory and the -p help add a trailing slash after each directory
+
+ls -amvp // this list all files and directories, put commas with -m, sorts with v and -p helps give a trailing slash
