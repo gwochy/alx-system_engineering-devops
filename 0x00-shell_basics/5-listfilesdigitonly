@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la /etc/password
+ls -la /etc /password
