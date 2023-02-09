@@ -14,5 +14,6 @@
 
  mv /tmp/betty /tmp/my-first-directory // moves the file betty to my-first-directoryfrom /tmp
 
- rm /tmp/my_first_directory/betty /// deletesfile betty from my_first_directory
+ rm /tmp/my_first_directory/betty // deletesfile betty from my_first_directory
 
+rm -r /tmp/my_first_directory // delecting a directory from /tmp directory
