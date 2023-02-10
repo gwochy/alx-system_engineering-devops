@@ -6,4 +6,6 @@ groups // this script prints all the groups the current user is part of
 
 sudo chown you filename // changes owner to a new owner of the file
 
+touchfilename //this script create an empty file
+
 
