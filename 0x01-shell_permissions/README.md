@@ -12,4 +12,4 @@ chmod u+x filename // this script gives executing permission on a named file
 
 chmod ug+x o+r filename // this script gives execution rights to both user and groug and reading rights to others
 
-
+chmod ugo+x filename //this script gives execution permission to everybody
