@@ -9,3 +9,7 @@ sudo chown you filename // changes owner to a new owner of the file
 touchfilename //this script create an empty file
 
 chmod u+x filename // this script gives executing permission on a named file
+
+chmod ug+x o+r filename // this script gives execution rights to both user and groug and reading rights to others
+
+
