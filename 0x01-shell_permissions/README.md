@@ -18,4 +18,6 @@ chmod 007 filename // this gives only the other users al the permissions but not
 
 chmod 753 filename // owner all rights, group read and execute, others write and execute
 
-chmod --reference = olleh hello // this script mirrors the permissions in one file into another
+chmod --reference=olleh hello // this script mirrors the permissions in one file into another
+
+chmod -R +111 */  //this script adds execution permissions to all subfolders in the current directory
