@@ -24,4 +24,6 @@ chmod -R +111 */  //this script adds execution permissions to all subfolders in 
 
 mkdir -m 751 my_dir // this script creates a directory my_dir with 751 permissions
 
+chgrp school hello //the script changes the grou owner
+
 
