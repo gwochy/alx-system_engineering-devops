@@ -21,3 +21,7 @@ chmod 753 filename // owner all rights, group read and execute, others write and
 chmod --reference=olleh hello // this script mirrors the permissions in one file into another
 
 chmod -R +111 */  //this script adds execution permissions to all subfolders in the current directory
+
+mkdir -m 751 my_dir // this script creates a directory my_dir with 751 permissions
+
+
