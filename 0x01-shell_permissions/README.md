@@ -29,3 +29,7 @@ chgrp school hello //the script changes the grou owner
 chown vicent:staff * // changes owner to vicent and group to staff for all files and directories
 
 chown -h vicent:staff _hello // changes both the owner and group owner of _hello to vicent and staff respectively
+
+telnet towel.blinkenlights.nl // this script plays the starwars iv episode in the terminal
+
+
