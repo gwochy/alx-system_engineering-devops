@@ -27,3 +27,5 @@ mkdir -m 751 my_dir // this script creates a directory my_dir with 751 permissio
 chgrp school hello //the script changes the grou owner
 
 chown vicent:staff * // changes owner to vicent and group to staff for all files and directories
+
+chown -h vicent:staff _hello // changes both the owner and group owner of _hello to vicent and staff respectively
