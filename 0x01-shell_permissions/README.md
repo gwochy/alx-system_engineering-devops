@@ -8,4 +8,4 @@ sudo chown you filename // changes owner to a new owner of the file
 
 touchfilename //this script create an empty file
 
-
+chmod u+x filename // this script gives executing permission on a named file
