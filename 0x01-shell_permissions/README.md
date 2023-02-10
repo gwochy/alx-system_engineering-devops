@@ -15,3 +15,7 @@ chmod ug+x o+r filename // this script gives execution rights to both user and g
 chmod ugo+x filename //this script gives execution permission to everybody
 
 chmod 007 filename // this gives only the other users al the permissions but not the owner and the group users
+
+chmod 753 filename // owner all rights, group read and execute, others write and execute
+
+
