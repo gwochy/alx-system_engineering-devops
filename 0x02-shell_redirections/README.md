@@ -17,3 +17,5 @@ echo "Best School" >> file-name # this puts the words in quotes in the file give
 escaping special characters # my goodness
 
 ls -la > file-name # this overwrites and creates a file-name
+
+tail -1 iacta >> iacta # this duplicates the last line of file iacta
