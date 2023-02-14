@@ -41,3 +41,5 @@ grep -i '^[a-z]' /etc/ssh/sshd_config #displays all lines starting with a letter
 tr 'Ac' 'Ze' #this replaces all Ac to Ze
 
 tr -d cC #this removes all c and C from the file
+
+rev #script that reverses input
