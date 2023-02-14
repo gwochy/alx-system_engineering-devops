@@ -8,3 +8,4 @@ cat /etc/passwd /etc/hosts # this displays both contents of files /etc/passwd an
 
 tail /etc/passwd # this displays the last 10 lines in the file /etc/passwd
 
+head /etc/passwd # this displays the first 10 lines of the file etc/passwd
