@@ -46,4 +46,8 @@ rev #script that reverses input
 
 cut -d ":" -f1,6 /etc/passwd | sort # displays all users and their home directories
 
-find . -empty |rev | cut -d "/" -f 1 |rev # this finds all empty files and directories 
+find . -empty |rev | cut -d "/" -f 1 |rev # this finds all empty files and directories
+
+find -type f -name "*.gif" -printf "%f\n" | rev | cut -d '.' -f 2- | rev | LC_ALL=C sort -f # lists all file with .gif and other conditions
+
+find -type f -name "*.gif" -printf "%f\n" | rev | cut -d '.' -f 2- | rev | LC_ALL=C sort -f # lists all file with .gif and other conditions 
