@@ -29,3 +29,5 @@ ls -t . | head #this displays the 10 newest files and begins with the newest to 
 sort | uniq -u # this one sorts and only print the unique word per line
 
 grep  -i "root" /etc/passwd # this script displays lines containing 'root' patterns
+
+grep -i "bin" /etc/passwd | wc -l # this script displays the number of lines with a 'bin pattern'
