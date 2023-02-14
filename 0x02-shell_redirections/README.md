@@ -15,3 +15,5 @@ head -3 iacta | tail -1 # this displays only the 3rd line from the file iacta
 echo "Best School" >> file-name # this puts the words in quotes in the file given
 
 escaping special characters # my goodness
+
+echo ls -la > file-name # this overwrites and creates a file-name
