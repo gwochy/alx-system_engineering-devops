@@ -43,3 +43,5 @@ tr 'Ac' 'Ze' #this replaces all Ac to Ze
 tr -d cC #this removes all c and C from the file
 
 rev #script that reverses input
+
+cut -d ":" -f1,6 /etc/passwd | sort # displays all users and their home directories
