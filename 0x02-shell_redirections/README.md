@@ -21,3 +21,7 @@ ls -la > file-name # this overwrites and creates a file-name
 tail -1 iacta >> iacta # this duplicates the last line of file iacta
 
 find . -type f -name "*.js" -delete # this deletes any files ending in .js
+
+find . -type d ! -path . | wc -l # this counts the number of directories and subdirectories in the current working directory
+
+
