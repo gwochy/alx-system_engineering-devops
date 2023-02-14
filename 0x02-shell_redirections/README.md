@@ -53,3 +53,6 @@ find -type f -name "*.gif" -printf "%f\n" | rev | cut -d '.' -f 2- | rev | LC_AL
 find -type f -name "*.gif" -printf "%f\n" | rev | cut -d '.' -f 2- | rev | LC_ALL=C sort -f # lists all file with .gif and other conditions 
 
 echo $(cut -c 1 | tr -d " \n") #ACROSTICS
+
+
+tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -11 | rev | cut -d ' ' -f -1 | rev
