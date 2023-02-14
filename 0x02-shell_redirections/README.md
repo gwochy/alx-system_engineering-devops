@@ -51,3 +51,5 @@ find . -empty |rev | cut -d "/" -f 1 |rev # this finds all empty files and direc
 find -type f -name "*.gif" -printf "%f\n" | rev | cut -d '.' -f 2- | rev | LC_ALL=C sort -f # lists all file with .gif and other conditions
 
 find -type f -name "*.gif" -printf "%f\n" | rev | cut -d '.' -f 2- | rev | LC_ALL=C sort -f # lists all file with .gif and other conditions 
+
+echo $(cut -c 1 | tr -d " \n") #ACROSTICS
