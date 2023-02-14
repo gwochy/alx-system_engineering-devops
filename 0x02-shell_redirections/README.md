@@ -37,3 +37,5 @@ grep -iA 3 "root" /etc/passwd #displays line containing pattern root and the fir
 grep -v "bin" /etc/passwd #displays all lines in the file that do not contain the pattern bin
 
 grep -i '^[a-z]' /etc/ssh/sshd_config #displays all lines starting with a letter
+
+tr 'Ac' 'Ze' #this replaces all Ac to Ze
