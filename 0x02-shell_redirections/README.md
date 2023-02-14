@@ -25,3 +25,7 @@ find . -type f -name "*.js" -delete # this deletes any files ending in .js
 find . -type d ! -path . | wc -l # this counts the number of directories and subdirectories in the current working directory
 
 ls -t . | head #this displays the 10 newest files and begins with the newest to the oldest
+
+sort | uniq -u # this one sorts and only print the unique word per line
+
+
