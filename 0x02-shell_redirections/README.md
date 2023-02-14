@@ -13,3 +13,5 @@ head /etc/passwd # this displays the first 10 lines of the file etc/passwd
 head -3 iacta | tail -1 # this displays only the 3rd line from the file iacta
 
 echo "Best School" >> file-name # this puts the words in quotes in the file given
+
+escaping special characters # my goodness
