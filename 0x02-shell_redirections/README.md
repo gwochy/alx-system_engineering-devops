@@ -39,3 +39,5 @@ grep -v "bin" /etc/passwd #displays all lines in the file that do not contain th
 grep -i '^[a-z]' /etc/ssh/sshd_config #displays all lines starting with a letter
 
 tr 'Ac' 'Ze' #this replaces all Ac to Ze
+
+tr -d cC #this removes all c and C from the file
