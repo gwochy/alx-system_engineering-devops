@@ -35,3 +35,5 @@ grep -i "bin" /etc/passwd | wc -l # this script displays the number of lines wit
 grep -iA 3 "root" /etc/passwd #displays line containing pattern root and the first 3 lines after it
 
 grep -v "bin" /etc/passwd #displays all lines in the file that do not contain the pattern bin
+
+grep -i '^[a-z]' /etc/ssh/sshd_config #displays all lines starting with a letter
