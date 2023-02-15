@@ -8,4 +8,4 @@ echo $PATH | tr ":" "\n" | wc -l # counts the number of directories in the PATH
 
 printenv #this prints environment or global variables
 
-
+set | less #this print all local variables, environment variables and functions
