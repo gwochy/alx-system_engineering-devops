@@ -18,4 +18,4 @@ echo $((TRUEKNOWLEDGE+=128)) # this expression add 128 to variable TRUEKNOWLEDGE
 
 echo $((POWER/DIVIDE)) # Divides POWER by DIVIDE
 
-
+echo $((BREATH**LOVE)) #this return the of breath being powered by love
