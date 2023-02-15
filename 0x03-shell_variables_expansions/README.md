@@ -12,4 +12,4 @@ set | less #this print all local variables, environment variables and functions
 
 BEST="School" # this creates a new local variable
 
-
+export BEST="School" #this script creates a new global variable
