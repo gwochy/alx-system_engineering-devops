@@ -27,3 +27,5 @@ echo {a..z}{a..z} | tr ' ''\n' | grep -v oo # this print all possible combinatio
 printf "%.2f\n" $NUM #this returns a float NUM with two decimal places
 
 printf "%x\n" $DECIMAL #this converts decimal or base 10 to hexadecimal or base 16
+
+sed -n 'p:n' #print every other line or every 3rd line or odd number line
