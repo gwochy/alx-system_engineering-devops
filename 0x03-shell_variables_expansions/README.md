@@ -15,3 +15,5 @@ BEST="School" # this creates a new local variable
 export BEST="School" #this script creates a new global variable
 
 echo $((TRUEKNOWLEDGE+=128)) # this expression add 128 to variable TRUEKNOWLEDGE
+
+echo ((POWER/DIVIDE)) # Divides POWER by DIVIDE
