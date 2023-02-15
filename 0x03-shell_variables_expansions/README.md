@@ -29,3 +29,5 @@ printf "%.2f\n" $NUM #this returns a float NUM with two decimal places
 printf "%x\n" $DECIMAL #this converts decimal or base 10 to hexadecimal or base 16
 
 sed -n 'p:n' #print every other line or every 3rd line or odd number line
+
+echo $(printf %o $(($((5#$(echo WATER | tr 'water' '01234'))) + $((5#$(echo STIR | tr 'stir.' '01234'))))) | tr '01234567' 'bestchol') changes both bases water and stir. from bas 5 (5#) to base 8 (%o) octal base (bestchol)
