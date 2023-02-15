@@ -23,3 +23,5 @@ echo $((BREATH**LOVE)) #this return the of breath being powered by love
 echo "$((2#BINARY))" # this converts binary base to a decimal base
 
 echo {a..z}{a..z} | tr ' ''\n' | grep -v oo # this print all possible combinations of the aplhabet except oo
+
+printf "%.2f\n" $NUM #this returns a float NUM with two decimal places
